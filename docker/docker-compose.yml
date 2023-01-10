@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  bookstore:
+    container_name: "bookstore"
+    image: "bookstore:latest"
+    build:
+      context: "../"
+      dockerfile: "./docker/Dockerfile"
+    restart: "always"
+    ports:
+      - "5000:5000"

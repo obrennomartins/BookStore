@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api", "src\BookStore.Api\BookStore.Api.csproj", "{0E85C427-E800-4FBE-A654-F811A32C828C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data", "src\BookStore.Data\BookStore.Data.csproj", "{857E0737-33A8-4F02-A0E7-261C8D3FBC71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Business", "src\BookStore.Business\BookStore.Business.csproj", "{7CC41E86-CE2C-4CF7-8A7B-32D82A9B89F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E85C427-E800-4FBE-A654-F811A32C828C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E85C427-E800-4FBE-A654-F811A32C828C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E85C427-E800-4FBE-A654-F811A32C828C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E85C427-E800-4FBE-A654-F811A32C828C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857E0737-33A8-4F02-A0E7-261C8D3FBC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857E0737-33A8-4F02-A0E7-261C8D3FBC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857E0737-33A8-4F02-A0E7-261C8D3FBC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857E0737-33A8-4F02-A0E7-261C8D3FBC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC41E86-CE2C-4CF7-8A7B-32D82A9B89F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC41E86-CE2C-4CF7-8A7B-32D82A9B89F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC41E86-CE2C-4CF7-8A7B-32D82A9B89F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC41E86-CE2C-4CF7-8A7B-32D82A9B89F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
